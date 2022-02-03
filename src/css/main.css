@@ -102,11 +102,10 @@
         align-items: center;
       }
       
-      .main-hero-img
+     img
       {
         order: 1;
-        max-width: 60w;
-      
+        width:100%;
       }
  
   }
