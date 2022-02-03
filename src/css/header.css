@@ -1,0 +1,39 @@
+@import url('/src/css/root.css');
+
+.header-container {
+  position: fixed;
+  backdrop-filter: blur(var(--u-20));
+  z-index: 1;
+  width: 100%;
+  border-bottom: 0.1px solid var(--secondary);
+  font-size: var(--text-lg);
+  
+}
+
+a {
+  color: var(--secondary);
+}
+
+a span {
+  color: var(--primary);
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: var(--u-20);
+  font-family: var(--primary-font);
+}
+
+.header-title
+{
+width: max-content;
+font-size: var(--text-2xl);
+}
+
+.header-navigation
+{
+ margin-left: auto;
+ font-size: var(--text-xl);
+}
