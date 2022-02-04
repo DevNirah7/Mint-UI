@@ -1,0 +1,64 @@
+@import url(./root.css);
+@import url(./utility.css);
+
+.inst-container
+{
+    display: grid;
+    padding: var(--u-80);
+    height: max-content;
+    grid-template-columns: 2fr 3fr;
+}
+
+.inst-content-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.content-container-title
+{
+    font-size: var(--text-2xl);
+    font-weight: bold;
+}
+
+.content-container-p
+{
+    font-size: var(--text-base);
+    text-align: center;
+}
+
+.code-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.code-snippet-display {
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 300px;
+    padding: var(--u-2);
+    margin: 2rem 0;
+    border: var(--u-1) solid var(--primary-shade);
+    overflow: auto;
+    border-radius: var(--rounded-xl);
+}
+.inst-content-image 
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: var(--u-20);
+}
+
+.inst-content-image img
+{
+    
+    width:100%;
+    height: auto;
+}
