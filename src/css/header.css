@@ -1,9 +1,7 @@
 @import url('/src/css/root.css');
 
 .header-container {
-  position: fixed;
-  backdrop-filter: blur(var(--u-20));
-  z-index: 1;
+  
   width: 100%;
   border-bottom: 0.1px solid var(--secondary);
   font-size: var(--text-lg);
@@ -15,6 +13,11 @@ a {
 }
 
 a span {
+  color: var(--primary);
+}
+
+.link-active
+{
   color: var(--primary);
 }
 

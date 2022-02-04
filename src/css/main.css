@@ -1,15 +1,15 @@
-.main-container {
-
-    padding: var(--u-80) var(--u-80) var(--u-80) var(--u-80);
+.main-container 
+  {
+    padding: var(--u-60);
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-   
+    grid-template-columns: 1fr 1fr;
+    
   }
   
   .main-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
   
@@ -61,52 +61,103 @@
   .main-hero-heading {
     font-family: var(--secondary-font);
     font-size: var(--text-5xl);
-    margin-top: 150px;
-    margin-bottom: var(--u-20);
+  
   }
   
   .main-hero-desc {
     font-family: var(--tertiary-font);
     color: var(--secondary-shade);
     font-size: var(--text-2xl);
-    margin-bottom: var(--u-40);
+   
   }
 
   .main-hero-img
   {
-    width: fit-content;
-    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: var(--u-20);
+  }
+
+  img
+  {
+    width:100%;
+   
   }
 
   @media screen and (max-width: 800px) {
 
     .main-container {
 
-        padding: var(--u-80) var(--u-80) var(--u-80) var(--u-80);
+        padding: var(--u-40);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-width: 600px;
-        margin:auto;
+        
        
       }
 
       .main-content {
         order: 2;   
-        max-width: 60vw;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      }
+
+      .main-hero-heading {
+        font-size: var(--text-4xl);
+        text-align: center;
+        margin-bottom: var(--u-10);
+      }
+      
+      .main-hero-desc {
+        font-size: var(--text-2xl); 
+        text-align: center; 
       }
       
      img
       {
         order: 1;
         width:100%;
+        margin-bottom: var(--u-12);
       }
  
   }
+
+  @media screen and (max-width: 450px) {
+
+    .main-container {
+
+        padding: var(--u-20); 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin:auto;
+       
+      }
+
+      .main-content {
+        order: 2;   
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem;
+  
+      }
+      
+      .main-hero-heading {
+        font-size: var(--text-3xl);
+        text-align: center;
+        margin-bottom: var(--u-10);
+      }
+      
+      .main-hero-desc {
+        font-size: var(--text-1xl); 
+  
+      }
+
+     img
+      {
+        order: 1;
+        width:100%;
+        margin-bottom: var(--u-12);
+      }
+ 
+  }
+
 
