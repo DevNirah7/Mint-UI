@@ -16,6 +16,11 @@ a span {
   color: var(--primary);
 }
 
+.link-active
+{
+  color: var(--primary);
+}
+
 .header-content {
   display: flex;
   flex-wrap: wrap;

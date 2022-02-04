@@ -3,6 +3,7 @@
     padding: var(--u-80) var(--u-80) var(--u-80) var(--u-80);
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    height: max-content;
    
   }
   
