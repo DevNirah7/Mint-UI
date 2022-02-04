@@ -1,0 +1,112 @@
+.main-container {
+
+    padding: var(--u-80) var(--u-80) var(--u-80) var(--u-80);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Main Buttons */
+  .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-installation,
+  .btn-documentation {
+    border: none;
+    outline: none;
+    padding: var(--u-14) var(--u-20);
+    margin: var(--u-8);
+    font-size: var(--text-base);
+    font-family: var(--primary-font);
+    border-radius: var(--rounded-md);
+    cursor: pointer;
+    box-shadow: var(--normal-shadow);
+  }
+  
+  .btn-installation {
+    background-color: var(--primary);
+    color: var(--tertiary);
+    color: var(--light);
+  }
+  
+  .btn-installation:hover {
+    transition: 0.3s ease-in-out;
+    background-color: var(--primary-shade);
+    box-shadow: none;
+  }
+  
+  .btn-documentation {
+    color: var(--default-text);
+    background-color: var(--tertiary);
+    border: 0.015px solid var(--secondary);
+  }
+  
+  .btn-documentation:hover {
+    background-color: var(--tertiary-shade);
+    transition: 0.3s ease-in-out;
+    box-shadow: none;
+  }
+  
+  .main-hero-heading {
+    font-family: var(--secondary-font);
+    font-size: var(--text-5xl);
+    margin-top: 150px;
+    margin-bottom: var(--u-20);
+  }
+  
+  .main-hero-desc {
+    font-family: var(--tertiary-font);
+    color: var(--secondary-shade);
+    font-size: var(--text-2xl);
+    margin-bottom: var(--u-40);
+  }
+
+  .main-hero-img
+  {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .main-container {
+
+        padding: var(--u-80) var(--u-80) var(--u-80) var(--u-80);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin:auto;
+       
+      }
+
+      .main-content {
+        order: 2;   
+        max-width: 60vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+     img
+      {
+        order: 1;
+        width:100%;
+      }
+ 
+  }
+
