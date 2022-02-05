@@ -1,0 +1,49 @@
+.docs-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    padding: var(--u-16);
+}
+
+.docs-sidebar-container
+{
+    flex-basis: 200px;
+    padding: var(--u-20);
+}
+
+.docs-container .sidebar-contents
+{
+    font-size: var(--text-sm);
+    margin: var(--u-16) 0 0 var(--u-8);
+}
+
+.docs-container .sidebar-title
+{
+    font-size: var(--text-base);
+    font-weight: bold;
+    
+}
+
+.docs-container .link-active
+{
+    color: var(--primary);
+}
+.docs-container a
+{
+    color: var(--default-text);
+    text-decoration: none;
+}
+
+li
+{
+    padding: var(--u-16) var(--u-2) var(--u-16) 0;
+}
+
+.docs-main-container
+{
+    flex-grow: 1;
+    padding: var(--u-20);
+}

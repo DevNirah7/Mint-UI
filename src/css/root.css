@@ -111,8 +111,12 @@
   --light-shade: #e0e0e0;
   --light-tint: #ffffff;
 } 
-
-  a
+  ul 
+  {
+  list-style: none;
+  }
+   
+  nav a
   {
     margin: 0;
     padding: 0;

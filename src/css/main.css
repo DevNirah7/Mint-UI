@@ -23,6 +23,7 @@
   
   .btn-installation,
   .btn-documentation {
+    text-decoration: none;
     border: none;
     outline: none;
     padding: var(--u-14) var(--u-20);
