@@ -2,7 +2,6 @@
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     max-width: 800px;
     margin: auto;
     padding: var(--u-16);
@@ -30,6 +29,7 @@
 .docs-container .link-active
 {
     color: var(--primary);
+    background-color: vary(--primary);
 }
 .docs-container a
 {
@@ -46,4 +46,40 @@ li
 {
     flex-grow: 1;
     padding: var(--u-20);
+}
+
+.component-title
+{
+    font-size: var(--text-2xl);
+}
+
+.component-subtitle
+{
+    font-size: var(--text-lg);
+    margin: var(--u-20) 0;
+}
+
+.component-desc
+{
+    font-size: var(--text-xs);
+    margin: var(--u-8) 0 var(--u-8) 0;
+}
+
+.component-display
+{
+    background-color: var(--tertiary-tint);
+    margin-top: var(--u-10);
+    margin-bottom: var(--u-24);
+    padding: var(--u-20) var(--u-10);
+    border-radius: var(--rounded-md);
+    border: var(--u-1) solid var(--primary-tint);
+}
+
+.code-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
