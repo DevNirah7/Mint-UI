@@ -29,7 +29,7 @@
 .docs-container .link-active
 {
     color: var(--primary);
-    background-color: var(--primary-tint);
+    background-color: vary(--primary);
 }
 .docs-container a
 {
