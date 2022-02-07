@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/src/css/root.css">
     <link rel="stylesheet" href="/src/css/header.css">
     <link rel="stylesheet" href="/src/css/docs.css">
+    <link rel="stylesheet" href="/src/css/utility.css">
+    <link rel="stylesheet" href="/src/components/avatars/avatars.css">
 </head>
 <body>
     <header class="header-container">
@@ -55,8 +57,22 @@
             </div>
         </div>
         <div class="docs-main-container">
-            <h2>Sample
-            </h2>
+            <div class="component-title">Avatars</div>
+            <div class="component-desc">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.</div>
+            <div class="component-subtitle">Standard Avatar</div>
+            <div class="component-display flex justify-center items-center">
+                <img class="avatar avatar-rounded" src="/src/assets/avatar-male.svg" alt="">
+                <img class="avatar avatar-rounded" src="/src/assets/avatar-female.svg" alt="">
+                <div class="avatar avatar-rounded avatar-text">HK</div>
+            </div>
+            <div class="code-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28153%2C239%2C218%2C1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=44px&dsblur=89px&wc=false&wa=true&pv=18px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522component-display%2520flex%2520justify-center%2520items-center%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-rounded%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-rounded%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-rounded%2520avatar-text%2522%253EHK%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                style="width: 620px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
         </div>
 
     </section>
