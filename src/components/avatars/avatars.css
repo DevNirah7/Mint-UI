@@ -1,0 +1,24 @@
+@import url('/src/css/root.css');
+
+.avatar
+{
+    width: var(--u-60);
+    height: var(--u-60);
+    margin: 0 var(--u-10);
+    border: var(--u-2) solid var(--light);
+}   
+
+.avatar-rounded
+{
+    border-radius: 50%;
+    
+}
+
+.avatar-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    font-size: var(--u-20);
+}
