@@ -1,12 +1,32 @@
-@import url('/src/css/root.css');
-
 .avatar
 {
     width: var(--u-60);
     height: var(--u-60);
     margin: 0 var(--u-10);
     border: var(--u-2) solid var(--light);
-}   
+}  
+
+.avatar-sm
+{
+    width: var(--u-28);
+    height: var(--u-28);
+    font-size: var(--u-10);
+     
+}
+
+.avatar-md
+{
+    width: var(--u-40);
+    height: var(--u-40);
+    font-size: var(--u-12);
+}
+
+.avatar-lg
+{
+    width: var(--u-60);
+    height: var(--u-60);
+    font-size: var(--u-24);
+}
 
 .avatar-rounded
 {
@@ -20,5 +40,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--primary);
-    font-size: var(--u-20);
+
 }
+
+
