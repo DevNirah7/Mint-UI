@@ -34,6 +34,9 @@
   .justify-evenly {
     justify-content: space-evenly;
   }
+  .justify-start {
+    align-items: flex-start;
+  }
   
   /* Vertical alignment */
   .items-start {

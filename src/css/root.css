@@ -70,7 +70,6 @@
   --secondary-shade: #b3bbc6;
   --secondary-tint: #d0d9e4;
 
-  /** tertiary (slate-200) **/
   --tertiary: #e2e8f0;
   --tertiary-shade: #c7ccd3;
   --tertiary-tint: #e5eaf2;
@@ -92,6 +91,11 @@
   --danger-rgb: 235, 68, 90;
   --danger-shade: #cf3c4f;
   --danger-tint: #ed576b;
+
+  /** info **/
+  --info: #87CEEB;
+  --info-shade: #00acf0;
+  --info-tint: #aae7ff;
 
   /** dark **/
   --dark: #222428;
