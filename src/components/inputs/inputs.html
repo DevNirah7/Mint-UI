@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | MintUI</title>
+    <link rel="stylesheet" href="/src/css/root.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/docs.css">
+    <link rel="stylesheet" href="/src/css/utility.css">
+    <link rel="stylesheet" href="/src/components/inputs/inputs.css">
+    <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-container">
+        <nav class="header-content">
+            <a class="header-title" href=""><span>MINT</span>UI</a>
+            <div class="header-navigation">
+            <a href="/index.html">Home</a>
+            <a href="/src/pages/installation.html">Installation</a>
+            <a href="/src/components/avatars/avatars.html" class="link-active">Docs</a>
+            </div> 
+        </nav>
+    </header> 
+    <section class="docs-container">
+        <div class="docs-sidebar-container">
+            <div class="sidebar-content">
+                <div class="sidebar-title">Components</div>
+                <div class="sidebar-contents">
+                    <ul>
+                        <li>
+                            <a href="/src/components/avatars/avatars.html">Avatar</a> 
+                        </li>
+                        <li>
+                            <a href="/src/components/alerts/alerts.html">Alert</a> 
+                        </li>
+                        <li>
+                            <a href="/src/components/badges/badges.html">Badge</a> 
+                        </li>
+                        <li>
+                            <a href="/src/components/buttons/buttons.html">Button</a> 
+                        </li>
+                        <li>
+                            <a href="">Card</a> 
+                        </li>
+                        <li>
+                            <a href="/src/components/images/images.html">Image</a> 
+                        </li>
+                        <li>
+                            <a class="link-active" href="/src/components/inputs/inputs.html">Input</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="docs-main-container">
+            <div class="component-title">Inputs</div>
+            <div class="component-desc"> Input component is used to get input from the user</div>
+            <div class="component-subtitle">Text</div> 
+            <div class="component-display flex flex-row justify-start items-center">
+                    <label for="default-input" class="label">Enter Value:</label>
+                    <input class="input-default" name="default-input" type="text" placeholder="Type here">
+            </div>
+            <div class="code-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed/GGGb03c0nSgEj5LQCEa7"
+                style="width: 708px; height: 144px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            <div class="component-subtitle">With Validation and Error style</div> 
+            <div class="component-display flex flex-validationerror flex-col justify-start items-start">
+                <div>
+                    <label for="input-error" class="label">Enter Value:</label>
+                    <input class="input-default" name="input-error" placeholder="Type here">
+                    <small class="text-validation-success">Password entered correctly!</small>
+                </div>
+                <div>
+                    <label for="input-success" class="label">Enter Value:</label>
+                    <input class="input-default" name="input-success" placeholder="Type here">
+                    <small class="text-validation-error">Incorrect! please enter the correct password!</small>
+                </div>
+            </div>
+            <div class="code-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed/EZtxdpiYAZ4lYvcEJ5mi"
+                style="width: 708px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            
+ 
+        </div>
+    </section>
+</body>
+</html>
