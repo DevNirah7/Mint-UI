@@ -1,0 +1,26 @@
+.img-responsive
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img
+{
+    height:200px;
+    width:300px;
+}
+
+.img-rnd
+{
+    border-radius: 50%;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+.img-sqr
+{
+   width: 200px;
+   object-fit: cover;
+}
