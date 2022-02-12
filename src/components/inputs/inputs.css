@@ -1,0 +1,27 @@
+.input-default 
+{
+    padding: var(--u-10) var(--u-14);
+    border: var(--u-1) solid var(--dark);
+    border-radius: var(--rounded-sm);
+  }
+  
+.label 
+{
+    padding: var(--u-10) var(--u-14);
+}
+
+.flex-validationerror
+{
+    gap: var(--u-16);
+}
+
+.text-validation-success
+{
+    color: var(--success-shade);
+}
+
+.text-validation-error
+{
+    color: var(--danger);
+}
+  

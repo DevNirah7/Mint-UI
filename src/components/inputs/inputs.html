@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="/src/css/header.css">
     <link rel="stylesheet" href="/src/css/docs.css">
     <link rel="stylesheet" href="/src/css/utility.css">
-    <link rel="stylesheet" href="/src/components/avatars/avatars.css">
-    <link rel="stylesheet" href="/src/components/badges/badges.css">
+    <link rel="stylesheet" href="/src/components/inputs/inputs.css">
     <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -31,13 +30,13 @@
                 <div class="sidebar-contents">
                     <ul>
                         <li>
-                         <a href="/src/components/avatars/avatars.html">Avatar</a> 
+                            <a href="/src/components/avatars/avatars.html">Avatar</a> 
                         </li>
                         <li>
                             <a href="/src/components/alerts/alerts.html">Alert</a> 
                         </li>
                         <li>
-                            <a class="link-active" href="/src/components/badges/badges.html">Badge</a> 
+                            <a href="/src/components/badges/badges.html">Badge</a> 
                         </li>
                         <li>
                             <a href="/src/components/buttons/buttons.html">Button</a> 
@@ -49,57 +48,50 @@
                             <a href="/src/components/images/images.html">Image</a> 
                         </li>
                         <li>
-                            <a href="/src/components/inputs/inputs.html">Input</a> 
+                            <a class="link-active" href="/src/components/inputs/inputs.html">Input</a> 
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="docs-main-container">
-            <div class="component-title">Badges</div>
-            <div class="component-desc">Badges are used to display notification information or the status information.</div>
-            <div class="component-subtitle">Badges with avatar</div>
-            <div class="component-display flex justify-center items-end">
-                <div class="badge-wrapper">
-                    <img class="avatar avatar-rounded avatar-sm" src="/src/assets/avatar-male.svg" alt="avatar">
-                    <span class="badge-primary badge-sm"></span>
+            <div class="component-title">Inputs</div>
+            <div class="component-desc"> Input component is used to get input from the user</div>
+            <div class="component-subtitle">Text</div> 
+            <div class="component-display flex flex-row justify-start items-center">
+                    <label for="default-input" class="label">Enter Value:</label>
+                    <input class="input-default" name="default-input" type="text" placeholder="Type here">
+            </div>
+            <div class="code-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed/GGGb03c0nSgEj5LQCEa7"
+                style="width: 708px; height: 144px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            <div class="component-subtitle">With Validation and Error style</div> 
+            <div class="component-display flex flex-validationerror flex-col justify-start items-start">
+                <div>
+                    <label for="input-error" class="label">Enter Value:</label>
+                    <input class="input-default" name="input-error" placeholder="Type here">
+                    <small class="text-validation-success">Password entered correctly!</small>
                 </div>
-                <div class="badge-wrapper">
-                    <img class="avatar avatar-rounded avatar-md" src="/src/assets/avatar-male.svg" alt="avatar">
-                    <span class="badge-secondary badge-md">I</span>
-                </div>
-                <div class="badge-wrapper">
-                    <img class="avatar avatar-rounded avatar-lg" src="/src/assets/avatar-male.svg" alt="avatar">
-                    <span class="badge-tertiary badge-lg">99</span>
+                <div>
+                    <label for="input-success" class="label">Enter Value:</label>
+                    <input class="input-default" name="input-success" placeholder="Type here">
+                    <small class="text-validation-error">Incorrect! please enter the correct password!</small>
                 </div>
             </div>
             <div class="code-wrapper">
                 <iframe
-                src="https://carbon.now.sh/embed/ZTqrx4NZMr4bWYbahtnQ"
-                style="width: 708px; height: 391px; border:0; transform: scale(1); overflow:hidden;"
+                src="https://carbon.now.sh/embed/EZtxdpiYAZ4lYvcEJ5mi"
+                style="width: 708px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
-            <div class="component-subtitle">Badges with icons</div>
-            <div class="component-display flex justify-center items-center">
-                <div class="badge-wrapper">
-                    <i class="fas fa-heart icon-wrapper"></i>
-                    <span class="badge-primary badge-xl badge-icon">99</span>
-                </div>
-                <div class="badge-wrapper">
-                    <i class="fas fa-envelope icon-wrapper"></i>
-                    <span class="badge-primary badge-xl badge-icon">99</span>
-                </div>        
-            </div>
-            <div class="code-wrapper">
-                <iframe
-                src="https://carbon.now.sh/embed/3CZ5vOMKXreImJcpgpRa"
-                style="width: 708px; height: 258px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
+            
+ 
         </div>
-
     </section>
 </body>
 </html>
