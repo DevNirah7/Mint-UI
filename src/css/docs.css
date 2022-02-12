@@ -1,15 +1,14 @@
 .docs-container
 {
-    display: flex;
-    flex-direction: row;
-    max-width: 800px;
-    margin: auto;
-    padding: var(--u-16);
+    display: grid;
+    grid-template-columns: 25% 75%;
 }
 
 .docs-sidebar-container
 {
-    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     margin-top: var(--u-6);
     padding: var(--u-20);
 }
@@ -45,7 +44,6 @@ li
 
 .docs-main-container
 {
-    flex-grow: 1;
     padding: var(--u-20);
 }
 
