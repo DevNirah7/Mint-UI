@@ -7,7 +7,7 @@
     color: var(--light);
   }
   
-  .nav-heading {
+  .nav-logo {
     font-size: var(--text-xl);
     cursor: pointer;
   }
