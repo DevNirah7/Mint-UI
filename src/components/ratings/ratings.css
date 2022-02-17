@@ -1,0 +1,11 @@
+.rating-div
+{
+    padding: var(--u-4 0);
+
+}
+
+.rating-div > i
+{
+    margin: 0 var(--u-2);
+    color: var(--gold);
+}

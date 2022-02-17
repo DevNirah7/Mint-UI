@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/src/css/header.css">
     <link rel="stylesheet" href="/src/css/docs.css">
     <link rel="stylesheet" href="/src/css/utility.css">
-    <link rel="stylesheet" href="/src/components/avatars/avatars.css">
+    <link rel="stylesheet" href="/src/components/navigation/navigation.css">
+    <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header-container">
@@ -29,7 +30,7 @@
                 <div class="sidebar-contents">
                     <ul>
                         <li>
-                         <a class="link-active" href="/src/components/avatars/avatars.html">Avatar</a> 
+                            <a href="/src/components/avatars/avatars.html">Avatar</a> 
                         </li>
                         <li>
                             <a href="/src/components/alerts/alerts.html">Alert</a> 
@@ -56,43 +57,39 @@
                             <a href="/src/components/text/text.html">Text Utilities</a> 
                         </li>
                         <li>
-                            <a href="/src/components/navigation/navigation.html">Navigation</a> 
+                            <a class="link-active" href="/src/components/navigation/navigation.html">Navigation</a> 
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="docs-main-container">
-            <div class="component-title">Avatars</div>
-            <div class="component-desc">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.</div>
-            <div class="component-subtitle">Picture Avatar</div>
-            <div class="component-display flex justify-center items-center">
-                <img class="avatar avatar-rounded avatar-sm" src="/src/assets/avatar-male.svg" alt="avatar">
-                <img class="avatar avatar-rounded avatar-md" src="/src/assets/avatar-male.svg" alt="avatar">
-                <img class="avatar avatar-rounded avatar-lg" src="/src/assets/avatar-male.svg" alt="avatar">
+            <div class="component-title">Navigation</div>
+            <div class="component-subtitle">Simple Navbar</div> 
+            <div class="component-display">
+                <nav class="nav-simple">
+                    <div class="nav-logo">Logo</div>
+                    <div class="nav-search">
+                        <button class="nav-search-icon"> <i class="fas fa-search"></i> </button>
+                        <input type="text" class="nav-search-input" placeholder="Search"/>
+                    </div>
+                    <ul class="nav-list">
+                      <li><i class="fas fa-lg fa-home"></i></li>
+                      <li><i class="fab fa-lg fa-gratipay"></i></li>
+                      <li><i class="fas fa-lg fa-shopping-cart"></i></li>
+                    </ul>
+                </nav>
             </div>
             <div class="code-wrapper">
                 <iframe
-                src="https://carbon.now.sh/embed/hbq0CNuuTAr7E5MUNkoP"
-                style="width: 708px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+                src="https://carbon.now.sh/embed/8Pz8PQKs8F1dHRiBDYiE"
+                style="width: 708px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
-            </div>
-            <div class="component-subtitle">Text Avatar</div>
-            <div class="component-display flex justify-center items-center">
-                <div class="avatar avatar-rounded avatar-sm avatar-text">HK</div>
-                <div class="avatar avatar-rounded avatar-md avatar-text">HK</div>
-                <div class="avatar avatar-rounded avatar-lg avatar-text">HK</div>
-            </div>
-            <div class="code-wrapper">
-                <iframe
-                src="https://carbon.now.sh/embed/hsRviKy2ATq9Hllh0Rak"
-                style="width: 708px; height: 163px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-        </div>
 
+            
+ 
+        </div>
     </section>
 </body>
 </html>
