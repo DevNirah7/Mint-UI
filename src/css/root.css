@@ -114,11 +114,14 @@
   --light-rgb: 255, 255, 255;
   --light-shade: #e0e0e0;
   --light-tint: #ffffff;
+  --gold: #FFD700;
+  --gray: #808080;
 
-    /* Shadows */
-    --normal-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    --floating-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
-    --faint-shadow :: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  /* Shadows */
+  --normal-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --floating-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+  --faint-shadow :: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 } 
 
 

@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/src/css/header.css">
     <link rel="stylesheet" href="/src/css/docs.css">
     <link rel="stylesheet" href="/src/css/utility.css">
-    <link rel="stylesheet" href="/src/components/avatars/avatars.css">
+    <link rel="stylesheet" href="/src/components/text/text.css">
+    <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header-container">
@@ -29,7 +30,7 @@
                 <div class="sidebar-contents">
                     <ul>
                         <li>
-                         <a class="link-active" href="/src/components/avatars/avatars.html">Avatar</a> 
+                            <a href="/src/components/avatars/avatars.html">Avatar</a> 
                         </li>
                         <li>
                             <a href="/src/components/alerts/alerts.html">Alert</a> 
@@ -53,7 +54,7 @@
                             <a href="/src/components/ratings/ratings.html">Rating</a> 
                         </li>
                         <li>
-                            <a href="/src/components/text/text.html">Text Utilities</a> 
+                            <a class="link-active" href="/src/components/text/text.html">Text Utilities</a> 
                         </li>
                         <li>
                             <a href="/src/components/navigation/navigation.html">Navigation</a> 
@@ -63,36 +64,61 @@
             </div>
         </div>
         <div class="docs-main-container">
-            <div class="component-title">Avatars</div>
-            <div class="component-desc">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.</div>
-            <div class="component-subtitle">Picture Avatar</div>
-            <div class="component-display flex justify-center items-center">
-                <img class="avatar avatar-rounded avatar-sm" src="/src/assets/avatar-male.svg" alt="avatar">
-                <img class="avatar avatar-rounded avatar-md" src="/src/assets/avatar-male.svg" alt="avatar">
-                <img class="avatar avatar-rounded avatar-lg" src="/src/assets/avatar-male.svg" alt="avatar">
-            </div>
+            <div class="component-title">Text Utilities</div>
+            <div class="component-subtitle">Heading Text</div> 
+            <div class="component-display flex flex-col justify-start items-center">
+                <h1 class="h1">h1 - Sample</h1>
+                <h2 class="h2">h2 - Sample</h2>
+                <h3 class="h3">h3 - Sample</h3>
+                <h4 class="h4">h4 - Sample</h4>
+                <h5 class="h5">h5 - Sample</h5>
+                <h6 class="h6">h6 - Sample</h6>
+              </div>
             <div class="code-wrapper">
                 <iframe
-                src="https://carbon.now.sh/embed/hbq0CNuuTAr7E5MUNkoP"
-                style="width: 708px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+                src="https://carbon.now.sh/embed/BwRD0aCiJUDIppSsHHaw"
+                style="width: 708px; height: 250px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
-            <div class="component-subtitle">Text Avatar</div>
-            <div class="component-display flex justify-center items-center">
-                <div class="avatar avatar-rounded avatar-sm avatar-text">HK</div>
-                <div class="avatar avatar-rounded avatar-md avatar-text">HK</div>
-                <div class="avatar avatar-rounded avatar-lg avatar-text">HK</div>
+            <div class="component-subtitle">Small text</div> 
+            <div class="component-display flex flex-col items-center">
+                <p class="text-small">Sample</p>
             </div>
             <div class="code-wrapper">
                 <iframe
-                src="https://carbon.now.sh/embed/hsRviKy2ATq9Hllh0Rak"
+                src="https://carbon.now.sh/embed/bMPKASkxqOtKyW9B5qkb"
                 style="width: 708px; height: 163px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
+            <div class="component-subtitle">Grayed Text</div> 
+            <div class="component-display flex justify-center">
+                <p class="text-gray">Sample</p>
+            </div>
+            <div class="code-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed/x186F5qaxLjkrQpikKtg"
+                style="width: 708px; height: 163px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            <div class="component-subtitle">Centered Text</div> 
+            <div class="component-display flex flex-col">
+                <p class="text-center">Sample</p>
+            </div>
+            <div class="code-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed/KPmqGkXLHvB1qI5W8PKC"
+                style="width: 708px; height: 163px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            
+            
+            
+ 
         </div>
-
     </section>
 </body>
 </html>
