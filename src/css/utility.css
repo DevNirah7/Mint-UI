@@ -37,6 +37,9 @@
   .justify-start {
     align-items: flex-start;
   }
+  .justify-end {
+    align-items: flex-end;
+  }
   
   /* Vertical alignment */
   .items-start {
