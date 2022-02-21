@@ -1,4 +1,8 @@
 # Mint-UI
+
+## About
+
+A simple, easy to use component library to help you get your websites up and running faster.
 ## Available components
 * Avatar
 * Alert
@@ -11,9 +15,7 @@
 * Text Utilities
 * Navigation
 
-## About
-
-A simple, easy to use component library to help you get your websites up and running faster.
+![MintUI](https://user-images.githubusercontent.com/89265161/155032252-30dbad7a-d742-4610-be6f-83afc941733e.gif)
 
 	
 ## Technologies
