@@ -1,150 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation | MintUI</title>
-    <link rel="stylesheet" href="/src/css/root.css">
-    <link rel="stylesheet" href="/src/css/header.css">
-    <link rel="stylesheet" href="/src/css/docs.css">
-    <link rel="stylesheet" href="/src/css/utility.css">
-    <link rel="stylesheet" href="/src/components/alerts/alerts.css">
-    <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation | MintUI</title>
+  <link rel="stylesheet" href="/src/css/root.css">
+  <link rel="stylesheet" href="/src/css/header.css">
+  <link rel="stylesheet" href="/src/css/docs.css">
+  <link rel="stylesheet" href="/src/css/utility.css">
+  <link rel="stylesheet" href="/src/components/alerts/alerts.css">
+  <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header class="header-container">
-        <nav class="header-content">
-            <a class="header-title" href=""><span>MINT</span>UI</a>
-            <div class="header-navigation">
-            <a href="/index.html">Home</a>
-            <a href="/src/pages/installation.html">Installation</a>
-            <a href="/src/components/avatars/avatars.html" class="link-active">Docs</a>
-            </div> 
-        </nav>
-    </header> 
-    <section class="docs-container">
-        <div class="docs-sidebar-container">
-            <div class="sidebar-content">
-                <div class="sidebar-title">Components</div>
-                <div class="sidebar-contents">
-                    <ul>
-                        <li>
-                            <a href="/src/components/avatars/avatars.html">Avatar</a> 
-                        </li>
-                        <li>
-                            <a class="link-active" href="/src/components/alerts/alerts.html">Alert</a> 
-                        </li>
-                        <li>
-                            <a href="/src/components/badges/badges.html">Badge</a> 
-                        </li>
-                        <li>
-                            <a href="/src/components/buttons/buttons.html">Button</a> 
-                        </li>
-                        <li>
-                            <a href="/src/components/cards/cards.html">Card</a> 
-                        </li>
-                        <li>
-                            <a href="/src/components/images/images.html">Image</a> 
-                        </li>
-                        <li>
-                            <a href="/src/components/inputs/inputs.html">Input</a> 
-                        </li>
-                        <li>
-                          <a href="/src/components/ratings/ratings.html">Rating</a> 
-                      </li>
-                      <li>
-                          <a href="/src/components/text/text.html">Text Utilities</a> 
-                      </li>
-                      <li>
-                          <a href="/src/components/navigation/navigation.html">Navigation</a> 
-                      </li>
-                    </ul>
-                </div>
-            </div>
+  <header class="header-container">
+    <nav class="header-content">
+      <a class="header-title" href=""><span>MINT</span>UI</a>
+      <div class="header-navigation">
+        <a href="/index.html">Home</a>
+        <a href="/src/pages/installation.html">Installation</a>
+        <a href="/src/components/avatars/avatars.html" class="link-active">Docs</a>
+      </div>
+    </nav>
+  </header>
+  <section class="docs-container">
+    <div class="docs-sidebar-container">
+      <div class="sidebar-content">
+        <div class="sidebar-title">Components</div>
+        <div class="sidebar-contents">
+          <ul>
+            <li>
+              <a href="/src/components/avatars/avatars.html">Avatar</a>
+            </li>
+            <li>
+              <a class="link-active" href="/src/components/alerts/alerts.html">Alert</a>
+            </li>
+            <li>
+              <a href="/src/components/badges/badges.html">Badge</a>
+            </li>
+            <li>
+              <a href="/src/components/buttons/buttons.html">Button</a>
+            </li>
+            <li>
+              <a href="/src/components/cards/cards.html">Card</a>
+            </li>
+            <li>
+              <a href="/src/components/images/images.html">Image</a>
+            </li>
+            <li>
+              <a href="/src/components/inputs/inputs.html">Input</a>
+            </li>
+            <li>
+              <a href="/src/components/ratings/ratings.html">Rating</a>
+            </li>
+            <li>
+              <a href="/src/components/text/text.html">Text Utilities</a>
+            </li>
+            <li>
+              <a href="/src/components/navigation/navigation.html">Navigation</a>
+            </li>
+          </ul>
         </div>
-        <div class="docs-main-container">
-            <div class="component-title">Alerts</div>
-            <div class="component-desc">Alert messages can be used to notify the user about something special: danger, success, information or warning.</div>
-            <div class="component-subtitle">Normal Alert</div> 
-            <div class="component-display flex flex-col items-center text-center">
-                <div class="alert success-filled flex justify-between items-center">
-                  Success! 
-                <span>x</span> 
-                </div>
-                <div class="alert info-filled flex justify-between items-center">
-                  Info! 
-                  <span>x</span>  
-                </div>
-                <div class="alert warning-filled flex justify-between items-center">
-                  Warning! 
-                <span>x</span>  
-                </div>
-                <div class="alert danger-filled flex justify-between items-center">
-                  Danger!
-                <span>x</span> 
-                </div>
-            </div>  
-            <div class="code-wrapper">
-                <iframe
-                src="https://carbon.now.sh/embed/Ggb0rfNpA6RuV39mV2We"
-                style="width: 708px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-              <div class="component-subtitle">Link Alert</div>  
-            <div class="component-display flex flex-col items-center text-center">
-                <div class="alert alert-link success-filled">
-                  <strong>Success!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
-                  <span>x</span> 
-                </div>
-                <div class="alert alert-link info-filled">
-                  <strong>Info!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
-                  <span>x</span> 
-                </div>
-                <div class="alert alert-link warning-filled">
-                  <strong>Warning!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
-                  <span>x</span> 
-                </div>
-                <div class="alert alert-link danger-filled">
-                  <strong>Danger!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
-                  <span>x</span> 
-                </div>
-            </div>
-            <div class="code-wrapper">
-                <iframe
-                src="https://carbon.now.sh/embed/DAhVucFU5ZZXcAHxoaKQ"
-                style="width: 708px; height: 486px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-            <div class="component-subtitle">Icon Alert</div> 
-            <div class="component-display flex flex-col items-center text-center">
-                    <div class="alert alert-icon success-filled">
-                        <i class="fas fa-check-circle"></i>Success! 
-                      <span>x</span> 
-                    </div>
-                    <div class="alert alert-icon info-filled">
-                        <i class="fas fa-info-circle"></i>Info! 
-                        <span>x</span> 
-                    </div>
-                    <div class="alert alert-icon warning-filled">
-                        <i class="fas fa-exclamation-triangle"></i>Warning! 
-                        <span>x</span> 
-                    </div>
-                    <div class="alert alert-icon danger-filled">
-                        <i class="fas fa-exclamation-circle"></i>Danger! 
-                        <span>x</span> 
-                    </div>
-            </div> 
-            <div class="code-wrapper">
-                <iframe
-                src="https://carbon.now.sh/embed/DAhVucFU5ZZXcAHxoaKQ"
-                style="width: 708px; height: 486px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
+      </div>
+    </div>
+    <div class="docs-main-container">
+      <div class="component-title">Alerts</div>
+      <div class="component-desc">Alert messages can be used to notify the user about something special: danger,
+        success, information or warning.</div>
+      <div class="component-subtitle">Normal Alert</div>
+      <div class="component-display flex flex-col items-center text-center">
+        <div class="alert success-filled flex justify-between items-center">
+          Success!
+          <span>x</span>
         </div>
-    </section>
+        <div class="alert info-filled flex justify-between items-center">
+          Info!
+          <span>x</span>
+        </div>
+        <div class="alert warning-filled flex justify-between items-center">
+          Warning!
+          <span>x</span>
+        </div>
+        <div class="alert danger-filled flex justify-between items-center">
+          Danger!
+          <span>x</span>
+        </div>
+      </div>
+      <div class="code-wrapper">
+        <iframe src="https://carbon.now.sh/embed/Ggb0rfNpA6RuV39mV2We"
+          style="width: 708px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <div class="component-subtitle">Link Alert</div>
+      <div class="component-display flex flex-col items-center text-center">
+        <div class="alert alert-link success-filled">
+          <strong>Success!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
+          <span>x</span>
+        </div>
+        <div class="alert alert-link info-filled">
+          <strong>Info!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
+          <span>x</span>
+        </div>
+        <div class="alert alert-link warning-filled">
+          <strong>Warning!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
+          <span>x</span>
+        </div>
+        <div class="alert alert-link danger-filled">
+          <strong>Danger!</strong> <span class="alert-link-text">You should read <a href="#">this</a> message</span>
+          <span>x</span>
+        </div>
+      </div>
+      <div class="code-wrapper">
+        <iframe src="https://carbon.now.sh/embed/DAhVucFU5ZZXcAHxoaKQ"
+          style="width: 708px; height: 486px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <div class="component-subtitle">Icon Alert</div>
+      <div class="component-display flex flex-col items-center text-center">
+        <div class="alert alert-icon success-filled">
+          <i class="fas fa-check-circle"></i>Success!
+          <span>x</span>
+        </div>
+        <div class="alert alert-icon info-filled">
+          <i class="fas fa-info-circle"></i>Info!
+          <span>x</span>
+        </div>
+        <div class="alert alert-icon warning-filled">
+          <i class="fas fa-exclamation-triangle"></i>Warning!
+          <span>x</span>
+        </div>
+        <div class="alert alert-icon danger-filled">
+          <i class="fas fa-exclamation-circle"></i>Danger!
+          <span>x</span>
+        </div>
+      </div>
+      <div class="code-wrapper">
+        <iframe src="https://carbon.now.sh/embed/DAhVucFU5ZZXcAHxoaKQ"
+          style="width: 708px; height: 486px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>

@@ -1,27 +1,21 @@
-.input-default 
-{
-    padding: var(--u-10) var(--u-14);
-    border: var(--u-1) solid var(--dark);
-    border-radius: var(--rounded-sm);
-  }
-  
-.label 
-{
-    padding: var(--u-10) var(--u-14);
+.input-default {
+  padding: var(--u-10) var(--u-14);
+  border: var(--u-1) solid var(--dark);
+  border-radius: var(--rounded-sm);
 }
 
-.flex-validationerror
-{
-    gap: var(--u-16);
+.label {
+  padding: var(--u-10) var(--u-14);
 }
 
-.text-validation-success
-{
-    color: var(--success-shade);
+.flex-validationerror {
+  gap: var(--u-16);
 }
 
-.text-validation-error
-{
-    color: var(--danger);
+.text-validation-success {
+  color: var(--success-shade);
 }
-  
+
+.text-validation-error {
+  color: var(--danger);
+}

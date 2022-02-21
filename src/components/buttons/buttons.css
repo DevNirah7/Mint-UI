@@ -1,92 +1,78 @@
-.btn
-{
-    padding : var(--u-16) var(--u-32);
-	margin : var(--u-16); 
-    cursor: pointer; 
+.btn {
+  padding: var(--u-16) var(--u-32);
+  margin: var(--u-16);
+  cursor: pointer;
 }
 
-.filled-btn 
-{
-    background-color: var(--primary);
-    color: var(--light);
-    border: 1px var(--primary);
+.filled-btn {
+  background-color: var(--primary);
+  color: var(--light);
+  border: 1px var(--primary);
 }
 
 .filled-btn:hover {
-    background-color: var(--primary-shade);
+  background-color: var(--primary-shade);
 }
 
-.outline-btn
-{
-    background-color: transparent;
-    color: var(--primary);
-    border: 1px solid var(--primary);
-    
+.outline-btn {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
 }
 
 .outline-btn:hover {
-    background-color: var(--secondary-tint);
+  background-color: var(--secondary-tint);
 }
 
-.rounded
-{
-    border-radius: var(--u-6);
-    
+.rounded {
+  border-radius: var(--u-6);
 }
 
-.link-btn
-{
-    background-color: transparent;
-    color: var(--primary);
-    border: none;
+.link-btn {
+  background-color: transparent;
+  color: var(--primary);
+  border: none;
 }
 
-.link-btn:hover
-{
-    font-weight: bold;
-    border-bottom: 2px solid var(--primary);
+.link-btn:hover {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
 }
 
-.underlinelink-btn
-{
-    background-color: transparent;
-    color: var(--primary);
-    border: none;
-    text-decoration: underline var(--primary);
+.underlinelink-btn {
+  background-color: transparent;
+  color: var(--primary);
+  border: none;
+  text-decoration: underline var(--primary);
 }
 
-.underlinelink-btn:hover
-{
-    font-weight: bold;
-    border-bottom: 2px solid var(--primary);
+.underlinelink-btn:hover {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
 }
 
-.icon-wrapper 
-{
-    margin-right: var(--u-6);
+.icon-wrapper {
+  margin-right: var(--u-6);
 }
 
-.login-btn
-{
-    background-color: var(--info);
-    color: var(--dark);
-    border: 1px var(--info);
+.login-btn {
+  background-color: var(--info);
+  color: var(--dark);
+  border: 1px var(--info);
 }
 
-.cart-btn
-{
-    background-color: transparent;
-    color: var(--danger);
-    border: 1px solid var(--danger);
+.cart-btn {
+  background-color: transparent;
+  color: var(--danger);
+  border: 1px solid var(--danger);
 }
 
-.floating-btn
-{
-    cursor: pointer;
-    border-radius: 50%;
-    border: 1px var(--primary);
-    background-color: var(--primary);
-    width: 50px;
-    height: 50px;
-    color: var(--light);
+.floating-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px var(--primary);
+  background-color: var(--primary);
+  width: 50px;
+  height: 50px;
+  color: var(--light);
 }

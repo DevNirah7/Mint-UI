@@ -1,89 +1,73 @@
-.alert
-{
-    border: 1px solid;
-    padding: 10px 20px;
-    margin: 5px 0;
-    border-radius: var(--rounded-sm);
-    min-width: 450px;
-    max-width: 100%;
+.alert {
+  border: 1px solid;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: var(--rounded-sm);
+  min-width: 450px;
+  max-width: 100%;
 }
-.alert-link
-{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.alert-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.alert-link strong
-{
-   font-size: var(--text-base);
-   font-weight: 700;
-   margin-right: var(--u-4);
+.alert-link strong {
+  font-size: var(--text-base);
+  font-weight: 700;
+  margin-right: var(--u-4);
 }
 
-.alert-link .alert-link-text
-{
-   margin: 0 var(--u-4);
-   color: var(--dark);
-   font-weight: bold;
-   font-size: var(--text-sm);
+.alert-link .alert-link-text {
+  margin: 0 var(--u-4);
+  color: var(--dark);
+  font-weight: bold;
+  font-size: var(--text-sm);
 }
 
-.alert-link .alert-link-text a
-{
-    text-decoration:underline;
-
+.alert-link .alert-link-text a {
+  text-decoration: underline;
 }
 
-.alert-link span
-{
-   font-size: var(--text-base); 
-   margin-left: auto;
+.alert-link span {
+  font-size: var(--text-base);
+  margin-left: auto;
 }
 
-.alert-icon
-{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.alert-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.alert-icon i
-{
-    margin-right: var(--u-4);
+.alert-icon i {
+  margin-right: var(--u-4);
 }
 
-.alert-icon span
-{
-   margin-left: auto;
+.alert-icon span {
+  margin-left: auto;
 }
 
-.info-filled
-{
-    border-color: var(--info);  
-    background-color: var(--info);
-    color: var(--light);   
+.info-filled {
+  border-color: var(--info);
+  background-color: var(--info);
+  color: var(--light);
 }
 
-
-.success-filled 
-{
-  border-color: var(--success);  
+.success-filled {
+  border-color: var(--success);
   background-color: var(--success);
   color: var(--light);
 }
 
-.warning-filled 
-{
-  border-color: var(--warning);   
+.warning-filled {
+  border-color: var(--warning);
   background-color: var(--warning);
   color: var(--light);
 }
 
-.danger-filled 
-{
-  border-color: var(--danger); 
+.danger-filled {
+  border-color: var(--danger);
   background-color: var(--danger);
   color: var(--light);
 }
-
